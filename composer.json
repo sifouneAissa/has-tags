@@ -1,0 +1,30 @@
+{
+    "name": "sifouneaissa/has-tags",
+    "description": "has-tags",
+    "authors": [
+        {
+            "name": "sifoune aissa",
+            "email": "sifouneaissa@gmail.com"
+        }
+    ],
+    "type": "MIT",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Sifouneaissaio\\HasTags\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sifouneaissaio\\HasTags\\HasTagsServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^6.0"
+    }
+
+}
