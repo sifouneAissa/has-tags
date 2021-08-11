@@ -8,7 +8,7 @@
         }
     ],
     "type": "MIT",
-    "license": "MIT",
+    "license": "MIT", 
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
