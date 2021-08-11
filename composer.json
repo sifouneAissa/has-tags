@@ -7,20 +7,11 @@
             "email": "sifouneaissa@gmail.com"
         }
     ],
-    "type": "MIT",
     "license": "MIT", 
     "minimum-stability": "dev",
-    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Sifouneaissaio\\HasTags\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Sifouneaissaio\\HasTags\\HasTagsServiceProvider"
-            ]
         }
     },
     "require": {
